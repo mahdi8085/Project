@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LOGIC.ProfessorProfile.DeputyNewClient">
+    <children>
+        <VBox prefHeight="400.0" prefWidth="162.0" style="-fx-background-color: #094c50;">
+            <children>
+                <Pane prefHeight="109.0" prefWidth="162.0">
+                    <children>
+                        <Label layoutX="62.0" layoutY="40.0" text="SUT" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Button fx:id="mainMenuButton" layoutX="10.0" layoutY="254.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="45.0" prefWidth="162.0" style="-fx-background-color: #094c50;" text="Main Menu" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.7" />
+                    </effect>
+                </Button>
+            </children>
+        </VBox>
+        <HBox layoutX="162.0" prefHeight="400.0" prefWidth="441.0" style="-fx-background-color: #8ed8dd;">
+            <children>
+                <Pane prefHeight="151.0" prefWidth="441.0">
+                    <children>
+                        <Button fx:id="addProfessorButton" layoutX="42.0" layoutY="14.0" mnemonicParsing="false" onAction="#addProfessor" prefHeight="25.0" prefWidth="109.0" text="Add Professor" />
+                        <TextField fx:id="professorNameField" layoutX="42.0" layoutY="55.0" prefHeight="25.0" prefWidth="170.0" promptText="name" />
+                        <TextField fx:id="professorNumberField" layoutX="42.0" layoutY="86.0" prefHeight="25.0" prefWidth="170.0" promptText="professor number" />
+                        <ChoiceBox fx:id="professorCollegeNameChoiceBox" layoutX="42.0" layoutY="276.0" prefHeight="25.0" prefWidth="170.0" />
+                        <ChoiceBox fx:id="professorDegreeChoiceBox" layoutX="42.0" layoutY="308.0" prefHeight="25.0" prefWidth="170.0" />
+                        <TextField fx:id="professorNationalCodeField" layoutX="42.0" layoutY="118.0" prefHeight="25.0" prefWidth="170.0" promptText="national code" />
+                        <TextField fx:id="professorEmailField" layoutX="42.0" layoutY="150.0" prefHeight="25.0" prefWidth="170.0" promptText="email" />
+                        <TextField fx:id="professorPhoneNumberField" layoutX="42.0" layoutY="181.0" prefHeight="25.0" prefWidth="170.0" promptText="phone number" />
+                        <TextField fx:id="professorRoomNumberField" layoutX="42.0" layoutY="212.0" prefHeight="25.0" prefWidth="170.0" promptText="room number" />
+                  <TextField fx:id="studentNameField" layoutX="221.0" layoutY="55.0" prefHeight="25.0" prefWidth="170.0" promptText="name" />
+                  <Button fx:id="addStudentButton" layoutX="221.0" layoutY="14.0" mnemonicParsing="false" onAction="#addStudent" prefHeight="25.0" prefWidth="109.0" text="Add Student" />
+                  <TextField fx:id="studentNumberField" layoutX="221.0" layoutY="86.0" prefHeight="25.0" prefWidth="170.0" promptText="student number" />
+                  <TextField fx:id="studentNationalCodeField" layoutX="221.0" layoutY="118.0" prefHeight="25.0" prefWidth="170.0" promptText="national code" />
+                  <TextField fx:id="studentEmailField" layoutX="221.0" layoutY="150.0" prefHeight="25.0" prefWidth="170.0" promptText="email" />
+                  <TextField fx:id="studentPhoneNumberField" layoutX="221.0" layoutY="181.0" prefHeight="25.0" prefWidth="170.0" promptText="phone number" />
+                  <TextField fx:id="studentGPAField" layoutX="221.0" layoutY="212.0" prefHeight="25.0" prefWidth="170.0" promptText="GPA" />
+                  <TextField fx:id="studentSupervisorProfessorNumberField" layoutX="221.0" layoutY="244.0" prefHeight="25.0" prefWidth="170.0" promptText="supervisor professor number" />
+                  <TextField fx:id="studentEnteringYearField" layoutX="221.0" layoutY="276.0" prefHeight="25.0" prefWidth="170.0" promptText="entering year" />
+                  <TextField fx:id="professorImageUrlField" layoutX="42.0" layoutY="244.0" prefHeight="25.0" prefWidth="170.0" promptText="image url" />
+                  <ChoiceBox fx:id="studentCollegeNameChoiceBox" layoutX="221.0" layoutY="336.0" prefHeight="25.0" prefWidth="170.0" />
+                  <ChoiceBox fx:id="studentTypeChoiceBox" layoutX="221.0" layoutY="366.0" prefHeight="25.0" prefWidth="170.0" />
+                  <TextField fx:id="studentImageUrlField" layoutX="221.0" layoutY="308.0" prefHeight="25.0" prefWidth="170.0" promptText="image url" />
+                        <Label fx:id="wrongInformation" layoutX="14.0" layoutY="354.0" prefHeight="25.0" prefWidth="147.0" textFill="RED" />
+                    </children></Pane>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

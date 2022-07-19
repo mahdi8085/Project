@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LOGIC.ProfessorMenu.DeputyEditCourses">
+    <children>
+        <VBox prefHeight="400.0" prefWidth="162.0" style="-fx-background-color: #094c50;">
+            <children>
+                <Pane prefHeight="109.0" prefWidth="162.0">
+                    <children>
+                        <Label layoutX="62.0" layoutY="40.0" text="SUT" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Button fx:id="backButton" mnemonicParsing="false" onAction="#back" prefHeight="45.0" prefWidth="162.0" style="-fx-background-color: #094c50;" text="Back" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <effect>
+                        <Glow level="0.7" />
+                    </effect>
+                </Button>
+                <Button fx:id="mainMenuButton" layoutX="10.0" layoutY="254.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="45.0" prefWidth="162.0" style="-fx-background-color: #094c50;" text="Main Menu" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.7" />
+                    </effect>
+                </Button>
+            </children>
+        </VBox>
+        <HBox layoutX="162.0" prefHeight="400.0" prefWidth="441.0" style="-fx-background-color: #8ed8dd;">
+            <children>
+                <Pane prefHeight="151.0" prefWidth="441.0">
+                    <children>
+                        <Button fx:id="addButton" layoutX="42.0" layoutY="30.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="71.0" text="Add" />
+                        <Button fx:id="removeButton" layoutX="135.0" layoutY="30.0" mnemonicParsing="false" onAction="#remove" prefHeight="25.0" prefWidth="71.0" text="Remove" />
+                        <Button fx:id="editButton" layoutX="228.0" layoutY="30.0" mnemonicParsing="false" onAction="#edit" prefHeight="25.0" prefWidth="71.0" text="Edit" />
+                        <Label layoutX="34.0" layoutY="6.0" prefHeight="17.0" prefWidth="390.0" text="Fill the blanks and choose your option : (only id for Remove &amp; Edit)" textFill="#1a00ff">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Label>
+                        <Button fx:id="applyEditButton" layoutX="307.0" layoutY="80.0" mnemonicParsing="false" onAction="#applyEdit" prefHeight="25.0" prefWidth="120.0" text="Apply Edit" />
+                  <TextField fx:id="nameField" layoutX="42.0" layoutY="80.0" promptText="name" />
+                  <TextField fx:id="idField" layoutX="42.0" layoutY="112.0" promptText="id" />
+                  <TextField fx:id="creditField" layoutX="42.0" layoutY="147.0" promptText="credit" />
+                  <TextField fx:id="professorNumberField" layoutX="42.0" layoutY="181.0" promptText="professor number" />
+                  <TextField fx:id="examDateField" layoutX="42.0" layoutY="215.0" promptText="exam date" />
+                  <ChoiceBox fx:id="daysOfWeekChoiceBox" layoutX="41.0" layoutY="249.0" prefWidth="150.0" />
+                  <ChoiceBox fx:id="collegeNameChoiceBox" layoutX="41.0" layoutY="285.0" prefWidth="150.0" />
+                  <ChoiceBox fx:id="studentTypeChoiceBox" layoutX="41.0" layoutY="321.0" prefWidth="150.0" />
+                  <Label fx:id="wrongInformation" layoutX="90.0" layoutY="363.0" prefHeight="25.0" prefWidth="230.0" textFill="RED" />
+                    </children></Pane>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

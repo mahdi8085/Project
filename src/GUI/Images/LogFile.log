@@ -1,0 +1,10 @@
+2022-06-21 09:44:27.195 [JavaFX Application Thread] INFO  GUI.Main - Application started
+2022-06-21 09:45:25.276 [JavaFX Application Thread] INFO  LOGIC.SignUp - Captcha changed
+2022-06-21 09:45:30.807 [JavaFX Application Thread] INFO  LOGIC.SignUp - User logged in
+2022-06-21 09:45:30.925 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMain.fxml
+2022-06-21 09:45:38.626 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMenu\StudentRegister.fxml
+2022-06-21 09:45:40.225 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMenu\StudentCourses.fxml
+2022-06-21 09:45:47.080 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMenu\StudentRegister.fxml
+2022-06-21 09:45:48.416 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMenu\StudentProfessors.fxml
+2022-06-21 09:46:13.416 [JavaFX Application Thread] INFO  LOGIC.StudentMenu.StudentProfessors - Filters applied
+2022-06-21 09:46:17.028 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMenu\StudentRegister.fxml

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LOGIC.ProfessorMenu.ProfessorRegister">
+    <children>
+        <VBox prefHeight="400.0" prefWidth="162.0" style="-fx-background-color: #094c50;">
+            <children>
+                <Pane prefHeight="109.0" prefWidth="162.0">
+                    <children>
+                        <Label layoutX="62.0" layoutY="40.0" text="SUT" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Button fx:id="coursesButton" mnemonicParsing="false" onAction="#professorCourses" prefHeight="45.0" prefWidth="162.0" style="-fx-background-color: #094c50;" text="Courses" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <effect>
+                        <Glow level="0.7" />
+                    </effect>
+                </Button>
+                <Button fx:id="professorsButton" layoutX="10.0" layoutY="119.0" mnemonicParsing="false" onAction="#professorProfessors" prefHeight="45.0" prefWidth="162.0" style="-fx-background-color: #094c50;" text="Professors" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.7" />
+                    </effect>
+                </Button>
+                <Button fx:id="mainMenuButton" layoutX="10.0" layoutY="254.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="45.0" prefWidth="162.0" style="-fx-background-color: #094c50;" text="Main Menu" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.7" />
+                    </effect>
+                </Button>
+            </children>
+        </VBox>
+        <HBox layoutX="162.0" prefHeight="400.0" prefWidth="441.0" style="-fx-background-color: #8ed8dd;">
+            <children>
+                <Pane prefHeight="151.0" prefWidth="441.0" />
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

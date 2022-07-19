@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LOGIC.SignUp">
+   <children>
+      <ImageView fitHeight="415.0" fitWidth="618.0" layoutX="-9.0" layoutY="-15.0">
+         <image>
+            <Image url="@Images/SignUp.png" />
+         </image></ImageView>
+      <Label layoutX="212.0" layoutY="14.0" text="Welcome" textFill="#00ecff">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="110.0" text="Username" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="172.0" layoutY="156.0" text="Password" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="285.0" layoutY="112.0" promptText="username" />
+      <PasswordField fx:id="password" layoutX="285.0" layoutY="158.0" promptText="password" />
+      <Button fx:id="logInButton" layoutX="274.0" layoutY="331.0" mnemonicParsing="false" onAction="#userLogIn" prefHeight="30.0" prefWidth="52.0" style="-fx-background-color: #ffc900;" text="Log In">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="captchaImage" fitHeight="30.0" fitWidth="95.0" layoutX="178.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="changeCaptchaButton" layoutX="194.0" layoutY="245.0" mnemonicParsing="false" onAction="#changeCaptcha" prefHeight="17.0" prefWidth="44.0" style="-fx-background-color: #bfff00;" text="change">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <TextField fx:id="captcha" layoutX="285.0" layoutY="207.0" promptText="captcha" />
+      <Label fx:id="wrongLogIn" layoutX="238.0" layoutY="72.0" prefHeight="17.0" prefWidth="176.0" textFill="RED" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+2022-05-27 10:51:11.727 [JavaFX Application Thread] INFO  GUI.Main - Application started
+2022-05-27 10:51:34.978 [JavaFX Application Thread] ERROR LOGIC.SignUp - User exceeds time limit of logging
+2022-05-27 10:51:34.994 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentChangePassword.fxml
+2022-05-27 10:51:35.003 [JavaFX Application Thread] ERROR LOGIC.SignUp - User entered wrong information
+2022-05-27 10:51:35.005 [JavaFX Application Thread] INFO  LOGIC.SignUp - Captcha changed
+2022-05-27 10:53:28.754 [JavaFX Application Thread] INFO  LOGIC.StudentChangePassword - User password changed
+2022-05-27 10:53:28.808 [JavaFX Application Thread] INFO  GUI.Main - Change scene to SignUp.fxml
+2022-05-27 10:53:46.508 [JavaFX Application Thread] INFO  LOGIC.SignUp - User logged in
+2022-05-27 10:53:46.556 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMain.fxml
+2022-05-27 10:53:53.582 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMenu\StudentRegister.fxml
+2022-05-27 10:53:54.448 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMenu\StudentCourses.fxml
+2022-05-27 10:53:59.283 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMenu\StudentRegister.fxml
+2022-05-27 10:54:00.044 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMain.fxml
+2022-05-27 10:54:01.067 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\StudentEducation.fxml
+2022-05-27 10:54:01.845 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\StudentWeeklySchedule.fxml
+2022-05-27 10:54:20.820 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\StudentEducation.fxml
+2022-05-27 10:54:21.540 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\StudentExamSchedule.fxml
+2022-05-27 10:54:33.224 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\StudentEducation.fxml
+2022-05-27 10:54:34.533 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentMasterRequests.fxml
+2022-05-27 10:54:43.809 [JavaFX Application Thread] INFO  LOGIC.StudentEducation.Requests.StudentMasterRequests - User requested educational certificate
+2022-05-27 10:54:43.865 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentDormitoryRequest.fxml
+2022-05-27 10:54:45.513 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentMasterRequests.fxml
+2022-05-27 10:54:48.489 [JavaFX Application Thread] INFO  LOGIC.StudentEducation.Requests.StudentMasterRequests - User requested recommendation
+2022-05-27 10:54:48.501 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentRecommendationRequest.fxml
+2022-05-27 10:55:06.446 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentMasterRequests.fxml
+2022-05-27 10:55:11.345 [JavaFX Application Thread] INFO  LOGIC.StudentEducation.Requests.StudentMasterRequests - User requested educational certificate
+2022-05-27 10:55:11.361 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentEducationalCertificateRequest.fxml
+2022-05-27 10:55:21.470 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentMasterRequests.fxml
+2022-05-27 10:55:26.713 [JavaFX Application Thread] INFO  LOGIC.StudentEducation.Requests.StudentMasterRequests - User requested withdrawal from education
+2022-05-27 10:55:26.775 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentWithdrawalFromEducationRequest.fxml
+2022-05-27 10:55:30.984 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentMasterRequests.fxml
+2022-05-27 10:55:54.295 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\StudentEducation.fxml
+2022-05-27 10:55:56.187 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\Requests\StudentMasterRequests.fxml
+2022-05-27 10:56:06.288 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentEducation\StudentEducation.fxml
+2022-05-27 10:56:15.113 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMain.fxml
+2022-05-27 10:56:16.895 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentTranscript\StudentTranscript.fxml
+2022-05-27 11:03:15.389 [JavaFX Application Thread] INFO  GUI.Main - Change scene to StudentMain.fxml
+2022-05-27 11:03:16.256 [JavaFX Application Thread] INFO  LOGIC.StudentMain - User logged out
+2022-05-27 11:03:16.279 [JavaFX Application Thread] INFO  GUI.Main - Change scene to SignUp.fxml
+2022-05-27 11:03:37.631 [JavaFX Application Thread] INFO  LOGIC.SignUp - User logged in
+2022-05-27 11:03:37.645 [JavaFX Application Thread] INFO  GUI.Main - Change scene to DeputyMain.fxml
+2022-05-27 11:03:40.475 [JavaFX Application Thread] INFO  GUI.Main - Change scene to ProfessorMenu\DeputyRegister.fxml
+2022-05-27 11:03:41.677 [JavaFX Application Thread] INFO  GUI.Main - Change scene to ProfessorMenu\DeputyCourses.fxml
+2022-05-27 11:03:48.190 [JavaFX Application Thread] INFO  GUI.Main - Change scene to ProfessorMenu\DeputyEditCourses.fxml
+2022-05-27 11:04:11.023 [JavaFX Application Thread] INFO  GUI.Main - Change scene to ProfessorMenu\DeputyCourses.fxml

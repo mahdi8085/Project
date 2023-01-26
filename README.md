@@ -1,0 +1,3 @@
+# Teacher/Student panel
+A program in which students and teachers can manage their education stuff such as signing up new students, adding course for students, recording student scores for teachers, ...
+This program has been developed with Java progamming language and used JavaFX for UI.
